@@ -1,0 +1,59 @@
+# ========== GJFIPIA - Gjenerimi i Fjalëve në Imazhe për Analizë ==========
+
+# Python (backend-i ynë)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+myenv/
+
+# Fjalëkalime dhe çelësa sekretë
+.env
+.env.local
+config_secret.py
+credentials.json
+secrets/
+
+# Imazhet e uploaduara nga përdoruesit
+uploads/
+backend/static/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Databaza lokale
+*.db
+*.sqlite
+database/development.db
+
+# Log files
+*.log
+logs/
+error.log
+
+# Folderat e IDE-s
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistemi operativ
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (nëse shtojmë më vonë)
+node_modules/
+npm-debug.log*
+
+# Backups dhe fajlla të mëdhenj
+*.zip
+*.rar
+backup/
+temp/
+
+# Cache për OCR
+cache/
+ocr_cache/
