@@ -1,9 +1,0 @@
-flask==3.0.0
-flask-cors==4.0.0
-pytesseract==0.3.10
-opencv-python==4.9.0.80
-Pillow==10.1.0
-pyodbc==5.0.1
-python-dotenv==1.0.0
-numpy==1.24.3
-requests==2.31.0
